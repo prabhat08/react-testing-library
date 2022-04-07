@@ -11,9 +11,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To Solve this update the react tesing libary packages to lates
 
-npm install --save-dev @testing-library/react@latest
-npm install --save-dev @testing-library/jest-dom@latest
-npm install --save-dev @testing-library/user-event@latest
+npm install --save-dev @testing-library/react@latest\
+npm install --save-dev @testing-library/jest-dom@latest\
+npm install --save-dev @testing-library/user-event@latest\
 
 
 ### `npm test`
