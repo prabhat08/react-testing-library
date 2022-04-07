@@ -2,17 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Problem 1
+ On Running the test case console showing the below error. 
 
-In the project directory, you can run:
+ Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
 
-### `npm start`
+### `Solution`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To Solve this update the react tesing libary packages to lates
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install --save-dev @testing-library/react@latest
+npm install --save-dev @testing-library/jest-dom@latest
+npm install --save-dev @testing-library/user-event@latest
+
 
 ### `npm test`
 
